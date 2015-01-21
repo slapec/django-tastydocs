@@ -1,5 +1,5 @@
-from django.conf.urls.defaults import patterns
-from views import doc
+from django.conf.urls import patterns
+from tastydocs.views import doc
 
 urlpatterns = patterns(
     '',
